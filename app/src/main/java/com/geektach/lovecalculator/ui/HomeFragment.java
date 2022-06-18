@@ -25,10 +25,12 @@ import com.geektach.lovecalculator.viewModel.HomeViewModel;
 
 import java.io.Serializable;
 
+import dagger.hilt.android.AndroidEntryPoint;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+@AndroidEntryPoint
 public class HomeFragment extends Fragment {
 
     NavController navController;
